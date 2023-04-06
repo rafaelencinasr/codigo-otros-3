@@ -1,4 +1,13 @@
-console.log("testabr");
+/* 
+  Este programa toma un arreglo de productos y los inserta en el DOM,
+  creando primero un div con elementos para mostrar el nombre del producto y su imagen
+
+  De igual forma, se crea una funcion para filtrar los productos en base a una entrada
+  de texto por parte del usuario.
+  Para el filtro se utiliza el metodo "filter" crear un nuevo array con solo los productos
+  del array original "productos" que contengan un string "texto", ya sea dentro de los valores
+  del tipo o del color del objeto
+*/
 
 // Tenemos un li de productos
 //Arreglo con diferentes productos

@@ -1,0 +1,27 @@
+HTML
+Errores:
+    - Placeholder del input tiene un error de ortografia
+    - Boton de filtrar sin id para su llamado desde el script
+    - La src del script se hace desde una carpeta interior, corregir por carpeta actual
+    - Imagenes ubicadas al mismo nivel que los archivos html, css, y script
+
+Soluciones:
+    - Se corrigio la palabra "Selecciona"
+    - Se agrego un id al boton de filtrar
+    - Se corrigio el src del script
+    - Se creo un nuevo directorio de "Assets" donde se guardaron las imagenes
+
+Script
+Errores:
+    - Falta de comentarios significativos
+    - Uso de variables del tipo var puede traernos problemas por su scope
+    - Variables con nombres no significativos 
+    - Invocacion de funciones que no existen
+    - Uso incorrecto de querySelector en el boton para filtrar
+
+Soluciones:
+    - Se agregaron comentarios significativos en diferentes partes del codigo
+    - Se cambiaron tipos de variables ver por let y const (dependiendo del contexto)
+    - Se cambiaron los nombres de algunas variables para evitar confusiones
+    - Se eliminarion invocaciones de funciones inexistentes
+    - Se corrigio el querySelector con el ID que agregamos al boton de filtrar
